@@ -9,10 +9,6 @@ def fun(x, y):
     return x**3 + x**2*y + x*y**2 + y**3 - 0.1
 
 @numba.jit
-def fun2(x,y):
-    return x*y
-
-@numba.jit
 def fun3(x,y):
     T = numpy.power(x,3)
     T2 = numpy.power(x, 2)
@@ -40,6 +36,6 @@ x = numpy.random.random((10000, 10000))
 y = numpy.random.random((10000, 10000))
 
 for i in range(5):
-    x = fun(x,y)
+    x = fun4(x,y)
 
 print(sum(sum(x)))

@@ -25,7 +25,7 @@ x = numpy.random.random((10000, 10000))
 y = numpy.random.random((10000, 10000))
 
 for i in range(5):
-    x = fun3(x,y)
+    x = fun1(x,y)
 
 print(sum(sum(x)))
 
