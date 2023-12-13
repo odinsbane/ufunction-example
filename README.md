@@ -20,4 +20,4 @@ Likewise, for the numba example:
 
     python -m package.numba_check
     
-I use `time` to time the processes, and the output has been reported on [my blog](https://orangepalantir.org/topicspace/show/110)
+I use `time` to time the processes, and the output has been reported on [my blog](https://orangepalantir.org/topicspace/show_110.html)
